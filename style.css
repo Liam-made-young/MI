@@ -1,3 +1,13 @@
+@supports (-webkit-touch-callout: none;) {
+    html {
+        font-size: 16px !important;
+        initial-scale: 1 !important; /* forces it even without meta tag */
+    }
+    body {
+        zoom: 0.85; /* slightly zoomed out */
+    }
+}
+
 body {
     background-color: white;
 }
