@@ -1,6 +1,6 @@
 @media only screen and (max-width: 768px) {
     html {
-        zoom: 0.9; /* Zooms out to 90% scale; adjust as needed (e.g., 0.8 for 80%) */
+        zoom: 0.7; /* Zooms out to 90% scale; adjust as needed (e.g., 0.8 for 80%) */
     }
 }
 
