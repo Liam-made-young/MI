@@ -1,10 +1,6 @@
-@supports (-webkit-touch-callout: none;) {
+@media only screen and (max-width: 768px) {
     html {
-        font-size: 16px !important;
-        initial-scale: 1 !important; /* forces it even without meta tag */
-    }
-    body {
-        zoom: 0.85; /* slightly zoomed out */
+        zoom: 0.9; /* Zooms out to 90% scale; adjust as needed (e.g., 0.8 for 80%) */
     }
 }
 
