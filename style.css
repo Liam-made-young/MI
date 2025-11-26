@@ -1,6 +1,6 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     html {
-        zoom: 0.7; /* Works on Chrome/Android + Safari (except Firefox) */
+        zoom: 0.5; /* Works on Chrome/Android + Safari (except Firefox) */
     }
 }
 
