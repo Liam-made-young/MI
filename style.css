@@ -1,28 +1,28 @@
 /* For screens up to 500px */
 @media only screen and (min-width: 0px) and (max-width: 500px) {
     html {
-        zoom: 0.5; /* Works on Chrome/Android + Safari (except Firefox) */
+        zoom: 0.6; /* Works on Chrome/Android + Safari (except Firefox) */
     }
 }
 
 /* For screens 501px to 700px */
 @media only screen and (min-width: 501px) and (max-width: 700px) {
     html {
-        zoom: 0.6; /* Works on Chrome/Android + Safari (except Firefox) */
+        zoom: 0.7; /* Works on Chrome/Android + Safari (except Firefox) */
     }
 }
 
 /* For screens 701px to 1000px */
 @media only screen and (min-width: 701px) and (max-width: 1000px) {
     html {
-        zoom: 0.7; /* Works on Chrome/Android + Safari (except Firefox) */
+        zoom: 0.8; /* Works on Chrome/Android + Safari (except Firefox) */
     }
 }
 
 /* Optional: For screens above 1000px (default or reset) */
 @media only screen and (min-width: 1001px) {
     html {
-        zoom: 0.8; /* Or any other value */
+        zoom: 0.9; /* Or any other value */
     }
 }
 
@@ -199,7 +199,7 @@ a:hover h2 {
         "Open Sans",
         "Helvetica Neue",
         sans-serif;
-    font-size: 32px;
+    font-size: 40px;
     color: black;
 }
 
@@ -227,14 +227,8 @@ a:hover h2 {
     filter: invert(1);
     width: 150px;
     height: 150px;
-    filter: invert(1); /* starts black & white */
-    transition: filter 0.5s ease;
     display: block;
     margin: 35px auto;
-}
-
-.wwav-logo:hover {
-    filter: none;
 }
 
 .social-header {
@@ -254,5 +248,36 @@ a:hover h2 {
         "Helvetica Neue",
         sans-serif;
     font-size: 64px;
+    color: black;
+}
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-box:hover {
+    filter: invert(1);
+    transition: filter 0.5s ease;
+}
+
+.sub-header {
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+    font-size: 28px;
     color: black;
 }

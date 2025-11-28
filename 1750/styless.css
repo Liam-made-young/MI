@@ -1,0 +1,60 @@
+/* https://www.w3schools.com/css/css_table_align.asp */
+body {
+    background-color: lightgray;
+}
+
+.first {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+}
+.first:hover {
+    background-color: coral;
+}
+
+/* https://www.w3schools.com/css/css_table_style.asp */
+
+.second {
+    font-family:
+        comic sans ms,
+        sans-serif;
+    text-align: right;
+}
+
+.second td:nth-child(odd) {
+    background-color: red;
+}
+
+.second td:nth-child(even) {
+    background-color: yellow;
+}
+
+.second tr {
+    background-color: green;
+}
+
+/* https://www.w3schools.com/css/css_table_style.asp */
+.third th,
+.third td {
+    border-bottom: 5px solid red;
+    border-top: 10px solid green;
+}
+.third {
+    background-color: yellow;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 24px;
+}
+
+.fourth {
+    color: blueviolet;
+    background-color: hotpink;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 21px;
+    border: 2px yellowgreen solid;
+    border-radius: 5px;
+    padding: 10px;
+}
